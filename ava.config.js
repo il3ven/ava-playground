@@ -1,3 +1,3 @@
 module.exports = {
-    utilizeParallelBuilds: true
+    utilizeParallelBuilds: false
 }

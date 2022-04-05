@@ -14,12 +14,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "ava": {
-    "require": [
-      "@babel/register"
-    ],
-    "utilizeParallelBuilds": false
-  },
   "devDependencies": {
     "@babel/core": "^7.17.7",
     "@babel/preset-env": "^7.16.11",
