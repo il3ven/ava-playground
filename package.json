@@ -10,14 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ava": "^4.1.0",
+    "ava": "github:il3ven/ava#parallelBuilds",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "ava": {
     "require": [
       "@babel/register"
-    ]
+    ],
+    "utilizeParallelBuilds": false
   },
   "devDependencies": {
     "@babel/core": "^7.17.7",
